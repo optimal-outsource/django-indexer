@@ -12,9 +12,8 @@ setup(
     packages=find_packages(),
     zip_safe=False,
     tests_require=[
-        'django',
-        'unittest2',
-        'south',
+        'Django=>1.7',
+        'unittest2'
     ],
     test_suite='indexer.runtests.runtests',
     include_package_data=True,
